@@ -1,9 +1,10 @@
 /standalone_phpmailer
-|-- /.env
 |-- /config
-|   |-- config.php
+|   |-- .env
 |-- /controllers
 |   |-- EmailController.php
+|-- /logs
+|   |-- email_errors.log
 |-- /models
 |   |-- EmailModel.php
 |-- /utils
@@ -11,11 +12,13 @@
 |-- /vendor
 |   |-- ... (composer files)
 |-- /public
-|   |-- /css
-|       |-- style.css
+|   |-- /assets
+|       |-- /css
+|           |-- style.css
 |   |-- index.php
 |   |-- .htaccess
 |-- /views
 |   |-- contact-form.php
 |   |-- 404.php
 |-- router.php
+|--File and Folder Structure.txt
