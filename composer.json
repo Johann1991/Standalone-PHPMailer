@@ -1,0 +1,17 @@
+{
+    "name": "johann/standalone_phpmailer",
+    "description": "A standalone phpmailer that can be added to multiple projects without the hassle of installing it for every project.",
+    "type": "library",
+    "require": {
+        "phpmailer/phpmailer": "^6.0",
+        "vlucas/phpdotenv": "^5.5"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Johann",
+            "email": "johanncareer@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
