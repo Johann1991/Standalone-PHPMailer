@@ -14,6 +14,8 @@
 |   |-- /css
 |       |-- style.css
 |   |-- index.php
+|   |-- .htaccess
 |-- /views
 |   |-- contact-form.php
+|   |-- 404.php
 |-- router.php

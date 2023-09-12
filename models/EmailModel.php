@@ -1,11 +1,6 @@
 <?php
-
-require __DIR__ . '/../vendor/autoload.php';
-
-// Fetching files
-// require '../vendor/PHPMailer/src/PHPMailer.php';
-// require 'path/to/PHPMailer/src/SMTP.php';
-// require 'path/to/PHPMailer/src/Exception.php';
+// Include autoload
+require __DIR__ . '/../vendor/autoload.php'; // Adjust this path as needed
 
 // models/EmailModel.php
 use PHPMailer\PHPMailer\PHPMailer;
@@ -46,7 +41,7 @@ class EmailModel {
         $subject = $_POST['subject'] ?? null;
         $message = $_POST['message'] ?? null;
 
-        $mail = $this->get_configured_mailer(); // Use the new method here
+        $mail = $this->get_configured_mailer();
     
         try {
             $toEmail = getenv('TO_EMAIL');

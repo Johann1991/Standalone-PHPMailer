@@ -4,10 +4,6 @@
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
-define('LOG_FILE_PATH', getenv('LOG_FILE_PATH') ?? './logs/email_errors.log');
-define('BACKUP_LOG_FILE_PATH', './logs/backup_email_errors.log');
-define('ADMIN_EMAIL', getenv('ADMIN_EMAIL') ?? 'admin@example.com'); // Add an admin email here
-
 /**
  * Logs error messages to a file
  *

@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="../public/assets/css/styles.css">
+    <link rel="stylesheet" href="../public/assets/css/styles.css"> <!-- Adjust this path as needed -->
     <title>404 Not Found</title>
 </head>
 <body>

@@ -1,8 +1,8 @@
 <?php
 // controllers/EmailController.php
 
-require __DIR__ . '/../models/EmailModel.php';
-require __DIR__ . '/../utils/logger.php';
+require __DIR__ . '/../models/EmailModel.php'; // Adjust this path as needed
+require __DIR__ . '/../utils/logger.php'; // Adjust this path as needed
 
 class EmailController {
     /**
@@ -16,12 +16,12 @@ class EmailController {
         
         // Check the status to determine what to output or log
         if ($status) {
-            header('Location: /standalone_phpmailer/public/?status=success'); // Redirect to the correct path
+            header('Location: /standalone_phpmailer/public/?status=success'); // Adjust this path as needed
             exit;
         } else {
             $errorMessage = "We couldn't send your email. Please try again later.";
             log_error($errorMessage);
-            header('Location: /standalone_phpmailer/public/?status=failure'); // Redirect to the correct path
+            header('Location: /standalone_phpmailer/public/?status=failure'); // Adjust this path as needed
             exit;
         }        
     }
